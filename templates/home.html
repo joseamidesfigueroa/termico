@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+    
+    <link href="{{ url_for('static', filename='images/favicon.png') }}" rel="icon">
+
+
+    <title>Confort Termico El Salvador</title>
+<!--
+WAVAWEB
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/font-awesome.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-softy-pinko.css') }}">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="#" class="logo">
+                            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Softy Pinko" />
+
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="#welcome" class="active">Modelos</a></li>
+                            <li><a href="#features">Informes Estadisticas</a></li>
+                            <li><a href="#work-process">Equipo Desarrollador</a></li>
+                            <li><a href="#testimonials">UTEC El Salvador</a></li>
+                            
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome">
+
+        <!-- ***** Header Text Start ***** -->
+        <div class="header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
+                        <h1>Modelos  <strong>Confort</strong><br>Térmico <strong>El Salvador</strong></h1>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Header Text End ***** -->
+    </div>
+    <!-- ***** Welcome Area End ***** -->
+
+    <!-- ***** Features Small Start ***** -->
+    <section class="section home-feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <!-- ***** Features Small Item Start ***** -->
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+                            <div class="features-small-item">
+                                <div class="icon">
+                                    <i><img src="{{ url_for('static', filename="images/icosilla.png") }}" alt=""></i>
+                                    <a href="{{ url_for('redesn') }}"></a>
+                                </div>
+                               <h5 class="features-title">Consultas Modelo Redes Neuronales</h5>
+                               <a href="{{ url_for('redesn') }}" class="btn btn-primary">Seleccionar</a>
+                               
+                            </div>
+                        </div>
+                        <!-- ***** Features Small Item End ***** -->
+
+                        <!-- ***** Features Small Item Start ***** -->
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+                            <div class="features-small-item">
+                                <div class="icon">
+                                    <i><img src="{{ url_for('static', filename="images/icosilla.png") }}" alt=""></i>
+                                    <a href="{{ url_for('redesn') }}"></a>
+                                </div>
+                               <h5 class="features-title">Graficas Modelo Redes Neuronales</h5>
+                               <a href="{{ url_for('historicog') }}" class="btn btn-primary">Seleccionar</a>
+                               
+                            </div>
+                        </div>
+                        <!-- ***** Features Small Item End ***** -->
+
+                        <!-- ***** Features Small Item Start ***** -->
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
+                            <div class="features-small-item">
+                                <div class="icon">
+                                    <i><img src="{{ url_for('static', filename='images/icosilla.png') }}" alt=""></i>
+                                </div>
+                                <h5 class="features-title">Modelo Clusterización</h5>
+                                <a href="{{ url_for('closterizacion') }}" class="btn btn-primary">Seleccionar</a>
+                            </div>
+                        </div>
+                        <!-- ***** Features Small Item End ***** -->
+
+                        <!-- ***** Features Small Item Start ***** -->
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
+                            <div class="features-small-item">
+                                <div class="icon">
+                                    <i><img src="{{ url_for('static', filename='images/icosilla.png') }}" alt=""></i>
+                                </div>
+                                <h5 class="features-title">Modelo Predictivo Arima</h5>
+                                <a href="{{ url_for('arima') }}" class="btn btn-primary">Seleccionar</a>
+                            </div>
+                        </div>
+                        <!-- ***** Features Small Item End ***** -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Small End ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section padding-top-70 padding-bottom-0" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="{{ url_for('static', filename='images/estadistica.jpg') }}" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
+                    <div class="left-heading">
+                        <h2 class="section-title">Informes Estadisticos</h2>
+                    </div>
+                    <div class="left-text">
+                        <p>Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur. Nam gravida purus non sapien auctor, ut aliquam magna ullamcorper.</p>
+                    </div>
+                    <a href="{{ url_for('arima') }}" class="btn btn-primary">Ver Informes</a>
+                    <a href=""><img src="" alt=""></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+   
+
+   
+
+    <!-- ***** Home Parallax Start ***** -->
+    <section class="mini" id="work-process">
+        <div class="mini-content">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-3 col-lg-6">
+                        <div class="info">
+                            <h1>Equipo Desarrollador</h1>
+                            <p>Estudiantes de Preespecialidad Ingeniería de Bases de Datos <br> UTEC 2022-2023 </p> 
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Mini Box Start ***** -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                      <a href="#" class="mini-box">
+                        <i><img src="{{ url_for('static', filename='images/doctor.jpg') }}" alt=""></i>
+                        <strong>Doctor Edwin Alberto Callejas</strong> <br>     
+                        <span>Catedratico UTEC</span>
+                        <span>Asesor de Tesis</span>
+                    </a>
+                </div>
+              </div>
+
+                  <div class="row justify-content-center">
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                      <a href="#" class="mini-box">
+                        <i><img src="{{ url_for('static', filename='images/jm.jpg') }}" alt=""></i>
+                        <strong>Juan Manuel Molina Rivera</strong> <br>
+                        <span>3507352019</span><br>
+                        <span>Licenciatura en informática</span>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                      <a href="#" class="mini-box">
+                        <i><img src="{{ url_for('static', filename='images/amides.jpg') }}" alt=""></i>
+                        <strong>Juan José Amides Figueroa Urbano</strong>
+                        <span>3566212014</span>
+                        <span>Licenciatura en informática</span>
+
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                      <a href="#" class="mini-box">
+                        <i><img src="{{ url_for('static', filename='images/eduardo.jpg') }}" alt=""></i>
+                        <strong>Eduardo Antonio Ortiz Reina</strong> 
+                        <span>3531682003</span><br>
+                        <span>Licenciatura en informática</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center">
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                      <a href="#" class="mini-box">
+                        <i><img src="{{ url_for('static', filename='images/jacky.jpg') }}" alt=""></i>
+                        <strong>Ruth Jacqueline Portillo Castro</strong> 
+                        <span>3550692017</span><br>
+                        <span>Licenciatura en informática</span>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                      <a href="#" class="mini-box">
+                        <i><img src="{{ url_for('static', filename='images/isa.jpg') }}" alt=""></i>
+                        <strong>Ana Isabel Hernández Ortiz</strong> 
+                        <span>3536102017</span><br>
+                        <span>Licenciatura en informática</span>
+
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                      <a href="#" class="mini-box">
+                        <i><img src="{{ url_for('static', filename='images/william.jpg') }}" alt=""></i>
+                        <strong>William Alfredo Valencia Bautista</strong>
+                        <span>3536682006</span>
+                        <span>Licenciatura en informática</span>
+                    </a>
+                </div>
+              </div>
+                   
+<!-- *****Mini Box End ***** -->
+            </div>
+        </div>
+    </section>
+    <!-- ***** Home Parallax End ***** -->
+
+    <!-- ***** Testimonials Start ***** -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <!-- ***** Section Title Start ***** -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="center-heading">
+                       <a href="https://www.utec.edu.sv/"> <img src="{{ url_for('static', filename='images/logoutec.jpg') }}" alt="50%" width="50%" ></a>
+                        
+                    </div>
+                </div>
+                
+                <div class="offset-lg-3 col-lg-6">
+                    <div class="center-text">
+                        <br>
+                        <p align="justify">La Universidad Tecnológica tiene como misión promover, coordinar y difundir proyectos destinados a diferentes niveles sociales en los que se involucre la participación de la comunidad universitaria, formando profesionales con conciencia social a través de la transferencia de conocimientos y beneficiando de forma tangible a los sectores más necesitados</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Section Title End ***** -->
+
+            <div class="row">
+                <!-- ***** Testimonials Item Start ***** -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="team-item">
+                        <div class="team-content">
+                           
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Testimonials Item End ***** -->
+                
+                <!-- ***** Testimonials Item Start ***** -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="team-item">
+                        <div class="team-content">
+                           <a href="https://www.utec.edu.sv/" target="_blank"><i><img src="{{ url_for('static', filename='images/utec_logo.png') }}" alt=""></i></a> 
+                            <br>
+                            <a href="https://www.utec.edu.sv/" target="_blank"><h5 align="center">Visitar Página Web </h5></a>
+                            <div class="user-image">
+                                
+                            </div>
+                            <div class="team-info">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Testimonials Item End ***** -->
+                
+                <!-- ***** Testimonials Item Start ***** -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="team-item">
+                        
+                    </div>
+                </div>
+                <!-- ***** Testimonials Item End ***** -->
+            </div>
+        </div>
+    </section>
+    <!-- ***** Testimonials End ***** -->
+
+    <!-- ***** Pricing Plans Start ***** -->
+    <section class="section colored" id="pricing-plans">
+        <div class="container">
+            
+            
+        </div>
+    </section>
+    <!-- ***** Contact Us End ***** -->
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/universidadtecnologica" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/UTECedusv?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright">Copyright &copy; 2023 UTEC El Salvador - Deseñado por: UTEC El Salvador</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- jQuery -->
+    <script src="{{ url_for('static', filename='js/jquery-2.1.0.min.js') }}"></script>
+
+    <!-- Bootstrap -->
+    <script src="{{ url_for('static', filename='js/popper.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+
+    <!-- Plugins -->
+    <script src="{{ url_for('static', filename='js/scrollreveal.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/waypoints.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/imgfix.min.js') }}"></script> 
+    
+    <!-- Global Init -->
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+
+  </body>
+</html>
